@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <title>Sign Up Page</title>
+</head>
+
+<body>
+  <div class="container">
+    <form>
+      <h2>Sign Up</h2>
+
+      <div>
+        <label for="username">Full Name <span class="required">*</span></label>
+        <br />
+        <input type="username" id="username" placeholder="Enter your name" name="username" /><br />
+      </div>
+
+      <div>
+        <label for="email">Email <span class="required">*</span></label>
+        <br />
+        <input type="email" id="email" placeholder="Enter your Email" name="email" /><br />
+      </div>
+
+      <div>
+        <label for="password">Password <span class="required">*</span></label>
+        <br />
+        <input type="password" id="password" placeholder="Enter your Password" name="password" />
+        <i id="showPassword" class="fa-solid fa-eye passwordIcon"></i>
+        <i id="hidePassword" class="fa-solid fa-eye-slash passwordIcon"></i>
+        <br />
+      </div>
+
+      <div>
+        <label for="confirmPassword">Confirm Password <span class="required">*</span></label>
+        <br />
+        <input type="password" id="confirmPassword" placeholder="Re-enter your Password" name="confirmPassword" />
+        <i id="showConfirmPassword" class="fa-solid fa-eye passwordIcon"></i>
+        <i id="hideConfirmPassword" class="fa-solid fa-eye-slash passwordIcon"></i>
+        <br />
+      </div>
+
+      <input id="logBtn" type="submit" />
+    </form>
+  </div>
+
+  <script src="signup.js"></script>
+</body>
+
+</html>

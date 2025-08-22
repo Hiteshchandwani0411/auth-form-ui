@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <title>Log In Page</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <form>
+        <h2>Login</h2>
+
+        <div>
+          <label for="email">Email</label> <br />
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter your Email"
+            name="email"
+          /><br />
+        </div>
+
+        <div>
+          <label for="password">Password</label> <br />
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter your Password"
+            name="password"
+          />
+          <i id="showPassword" class="fa-solid fa-eye passwordIcon"></i>
+          <i id="hidePassword" class="fa-solid fa-eye-slash passwordIcon"></i>
+          <br />
+        </div>
+
+        <input id="logBtn" type="submit" />
+
+        <div class="sep-min" role="separator" aria-label="or">
+          <span>or</span>
+        </div>
+
+        <button
+          id="logBtn"
+          style="
+            background: linear-gradient(45deg, #8cff00, #00ffb3);
+            text-shadow: 2px 2px 2px black;
+          "
+        >
+          <a href="signup.html"> Sign Up</a>
+        </button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
