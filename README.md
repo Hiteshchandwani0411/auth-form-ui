@@ -1,6 +1,3 @@
-Perfect 👍 Here’s a **complete `README.md` file** you can copy–paste directly into your repo:
-
-
 # 🔑 Authentication Form (Login + Signup)
 
 A responsive **Login and Signup Authentication Form** with built-in validation and interactive features.  
