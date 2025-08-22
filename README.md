@@ -31,7 +31,7 @@ Designed using **HTML, CSS (Glassmorphic UI)**, and **Vanilla JavaScript** for f
 ## 🚀 How to Use
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/Hiteshchandwani0411/auth-form-ui.git
 
 
 2. Open `index.html` in your browser for the **Login Page**.
